@@ -1,0 +1,11 @@
+ansible3
+
+[group1]
+ansible1
+
+[group2]
+ansible2
+
+[nodes:children]
+group1
+group2
